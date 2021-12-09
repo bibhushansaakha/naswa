@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    background-color: black;
+  }
+
+  .card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(211, 155, 0, 0.959);
+    transition: 0.3s;
+    opacity: 70%;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 30px 0 rgba(187, 139, 6, 0.9);
+    opacity: 100%;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 0px; /* 5px rounded corners */
+    height: 40%;
+    width: 25%;
+    border-radius: 25px 25px 25px 25px;
+  
+    overflow: hidden;
+  }
+
+  #c1{
+    position: absolute;
+    transform: translate(30%,20%);
+  }
+
+  #c2{
+    position: absolute;
+    transform: translate(140%,20%);
+  }
+  #c3{
+    position: absolute;
+    transform: translate(250%,20%);
+  }
+  #c4{
+    position: absolute;
+    transform: translate(30%,150%);
+  }
+  #c5{
+    position: absolute;
+    transform: translate(140%,150%);
+  }
+  #c6{
+    position: absolute;
+    transform: translate(250%,150%);
+  }
+  #c7{
+    position: absolute;
+    transform: translate(30%,280%);
+  }
+  #c8{
+    position: absolute;
+    transform: translate(140%,280%);
+  }
+  #c9{
+    position: absolute;
+    transform: translate(250%,280%);
+  }
+
+img{
+  max-height:100%;
+  max-width:100%;
+}
+
+h1{
+  color: aliceblue;
+  text-align: center;
+  opacity: 60%;
+}
+

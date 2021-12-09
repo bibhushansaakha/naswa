@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    background-color: black;
+  }
+
+  h1{
+      color: white;
+      text-align: center;
+
+  }
+
+  h1:hover{
+      font-size: 30px;
+      color: grey;
+  }
